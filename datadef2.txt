@@ -1,0 +1,50 @@
+Welcome to part two of this series. In this section, we’ll cover the development
+environment, open source data integration, transformation, and visualization tools. One of the most popular current development
+environments that data scientists are using is “Jupyter.” Jupyter first emerged as a tool for interactive
+Python programming; it now supports more than a hundred different programming languages
+through “kernels.” Kernels shouldn’t be confused with operating
+system kernels. Jupyter kernels are encapsulating the different
+interactive interpreters for the different programming languages. A key property of Jupyter Notebooks is the
+ability to unify documentation, code, output from the code, shell commands, and visualizations
+into a single document. JupyterLab is the next generation of Jupyter
+Notebooks and in the long term, will actually replace Jupyter Notebooks. The architectural changes being introduced
+in JupyterLab makes Jupyter more modern and modular. From a user’s perspective, the main difference
+introduced by JupyterLab is the ability to open different types of files, including Jupyter
+Notebooks, data, and terminals. You can then arrange these files on the canvas. Although Apache Zeppelin has been fully reimplemented,
+it’s inspired by Jupyter Notebooks and provides a similar experience. One key differentiator is the integrated plotting
+capability. In Jupyter Notebooks, you are required to
+use external libraries in Apache Zeppelin, and plotting doesn’t require coding. You can also extend these capabilities by
+using additional libraries. RStudio is one of the oldest development environments
+for statistics and data science, having been introduced in 2011. It exclusively runs R and all associated R
+libraries. However, Python development is possible and
+R is therefore tightly integrated into this tool to provide an optimal user experience. RStudio unifies programming, execution, debugging,
+remote data access, data exploration, and visualization into a single tool. Spyder tries to mimic the behaviour of RStudio
+to bring its functionality to the Python world. Although Spyder does not have the same level
+of functionality as RStudio, data scientists do consider it an alternative. But in the Python world, Jupyter is used more
+frequently. This diagram shows how Spyder integrates code,
+documentation, visualizations, and other components into a single canvas. Sometimes your data doesn’t fit into a single
+computer’s storage or main memory capacity. That’s where cluster execution environments
+come in. The well known cluster-computing framework
+Apache Spark is among the most active Apache projects and is used across all industries,
+including in many Fortune 500 companies. The key property of Apache Spark is linear
+scalability. This means, if you double the number of servers
+in a cluster, you’ll also roughly double its performance. After Apache Spark began to gain market share,
+Apache Flink was created. The key difference between Apache Spark and
+Apache Flink is that Apache Spark is a batch data processing engine, capable of processing
+huge amounts of data file by file. Apache Flink, on the other hand, is a stream
+processing image, with its main focus on processing real-time data streams. Although engine supports both data processing
+paradigms, Apache Spark is usually the choice in most use cases. One of the latest developments in the data
+science execution environments is called “Ray,” which has a clear focus on large-scale deep
+learning model training. Let’s look at open source tools for data
+scientists that are fully integrated and visual. With these tools, no programming knowledge
+is necessary. Most important tasks are supported by these
+tools; these tasks include data integration, transformation, data visualization, and model
+building. KNIME originated at the University of Konstanz
+in 2004. As you can see, KNIME has a visual user interface
+with drag-and-drop capabilities. It also has built-in visualization capabilities. Knime can be be extended by programming in
+R and Python, and has connectors to Apache Spark. Another example of this group of tools is
+Orange. It’s less flexible than KNIME, but easier
+to use. In this video, you’ve learned about the
+most common data science tasks and which open source tools are relevant to those tasks. In the next video, we’ll describe some established
+commercial tools that you’ll encounter in your data science experience. Let’s move on to the next video to get more
+details.
